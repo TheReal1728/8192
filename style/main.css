@@ -195,10 +195,6 @@ hr {
       margin-left: 9px; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
-    .game-container .game-message .score-sharing {
-      display: inline-block;
-      vertical-align: middle;
-      margin-left: 10px; }
     .game-container .game-message.game-won {
       background: rgba(237, 194, 46, 0.5);
       color: #f9f6f2; }
@@ -375,6 +371,22 @@ hr {
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-4096 .tile-inner {
+    color: #f9f6f2;
+    background: #edc53f;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4096 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-8192 .tile-inner {
+    color: #f9f6f2;
+    background: #edc53f;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8192 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
@@ -596,10 +608,6 @@ a.style-button strong {
         margin-left: 9px; }
         .game-container .game-message a.keep-playing-button {
           display: none; }
-      .game-container .game-message .score-sharing {
-        display: inline-block;
-        vertical-align: middle;
-        margin-left: 10px; }
       .game-container .game-message.game-won {
         background: rgba(237, 194, 46, 0.5);
         color: #f9f6f2; }
@@ -717,8 +725,3 @@ a.style-button strong {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; }
-
-  .sharing > iframe, .sharing > span, .sharing > form {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px; } }
